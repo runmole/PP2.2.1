@@ -7,7 +7,6 @@ import javax.persistence.*;
 @Table(name = "cars")
 public class Car {
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "car_id")
@@ -18,7 +17,6 @@ public class Car {
 
     @Column(name = "series")
     private int series;
-
 
     public Car(){
     }
